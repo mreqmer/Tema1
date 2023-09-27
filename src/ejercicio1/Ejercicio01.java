@@ -7,24 +7,14 @@ public class Ejercicio01 {
 		
 		// Declaración de variables
 		Scanner sc = new Scanner(System.in);
-		short numero;
-		
-		//Pedir numero
-		 
+		short numero; //Recoge un número entero
+		//Pedir numero	 
 		System.out.println("Dime un número");
-		
 		//introducir numero
-		
 		numero = sc.nextShort();
-		
 		//Devolver numero
-		
 		System.out.println("Su número es " + numero);
-		
 		sc.close();
-	
-	
-
 	}
 
 }
